@@ -986,14 +986,15 @@ a {
 .location__map {
   margin-bottom: var(--spacing-lg);
   border-radius: var(--radius-lg);
-  overflow: hidden;
+  /* overflow: hidden; */
   box-shadow: 0 4px 24px rgba(232, 223, 240, 0.25);
 }
 
 .location__map-img {
-  width: 100%;
+  display: block;
+   width: 100%;
   height: auto;
-  object-fit: contain;
+  object-fit: normal;
 }
 
 .location__links {
